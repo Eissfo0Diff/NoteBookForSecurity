@@ -1,8 +1,19 @@
 NoteBookForSecurity
 
 # 信息安全笔记
+
+## 笔记目录
+> ...
+
 ## Web安全
 ---
+## 学习计划
+  1. [爬虫](http://cuiqingcai.com/1052.html)
+  2. [sql]()
+  3. [xss]()
+  4. [其他]()
+
+
 由于对php和数据库mysql不熟悉，首先学习一下数据库 php，然后学习sql注入
 之后学习 js ，之后学习xss
 
@@ -21,3 +32,5 @@ NoteBookForSecurity
 [黑客技术：ipc$命令详解基础篇](http://netsecurity.51cto.com/art/201108/288360.htm)
 
 [Setting up a lab with ModSecurity, Apache and DVWA](https://digi.ninja/blog/modsecurity_lab.php)
+
+[python爬虫](http://cuiqingcai.com/1052.html)

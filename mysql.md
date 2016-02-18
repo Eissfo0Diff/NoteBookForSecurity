@@ -72,7 +72,7 @@ Select * from 表名 where 列名 not like（like） '字符值'
 1. 查看数据库信息：show databases;  
 2.查看表信息：show tables;  
 3.查看表的结构：desc 表名  
-4. 新建数据库:create database 数据库名;  
+4. 新建数据库:create database 数据库名;
 5.操作指定数据库:use 数据库名;  
 6.新建数据表(先use 操作库);  
 create table 表名(规范为tbl_表名)  
