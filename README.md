@@ -8,10 +8,39 @@ NoteBookForSecurity
 ## Web安全
 ---
 ## 学习计划
-  1. [爬虫](http://cuiqingcai.com/1052.html)
-  2. [sql]()
-  3. [xss]()
-  4. [其他]()
+ * [secwiki-web安全](http://www.sec-wiki.com/skill/2)
+ * [i春秋-web安全](http://www.ichunqiu.com/careerPlan 
+
+ * [爬虫](http://cuiqingcai.com/1052.html):信息搜集
+
+### 漏洞案例
+ * XSS漏洞
+ * SQL注入漏洞
+ * CSRF漏洞
+ * 命令执行漏洞
+ * 代码执行漏洞
+ * 任意文件下载
+ * [文件上传漏洞](http://www.owasp.org.cn/OWASP_Training/Upload_Attack_Framework.pdf)
+ * 逻辑漏洞
+
+### 渗透技术分析
+ * 敏感信息泄漏
+ * 暴力破解
+ * 拒绝服务攻击
+ * 本地提权
+ * 中间人劫持
+ * 溢出攻击
+ * 开源软件历史漏洞案例分析
+
+# 渗透实战操作
+网上找渗透视频看并思考其中的思路和原理，关键字（渗透、SQL注入视频、文件上传入侵、数据库备份、dedecms漏洞利用等等）；
+自己找站点/搭建测试环境进行测试，记住请隐藏好你自己；
+思考渗透主要分为几个阶段，每个阶段需要做那些工作，例如这个：PTES渗透测试执行标准；
+研究SQL注入的种类、注入原理、手动注入技巧；
+研究文件上传的原理，如何进行截断、双重后缀欺骗(IIS、PHP)、解析漏洞利用（IIS、Nignix、Apache）等，参照：上传攻击框架；
+研究XSS形成的原理和种类，具体学习方法可以Google/SecWiki，可以参考：XSS；
+研究Windows/Linux提权的方法和具体使用，可以参考：提权；
+可以参考: 开源渗透测试脆弱系统；
 
 
 由于对php和数据库mysql不熟悉，首先学习一下数据库 php，然后学习sql注入
