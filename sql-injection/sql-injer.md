@@ -1,8 +1,6 @@
 目录
 	SQL注入方法
 
-
-
 [使用SQLMAP对网站和数据库进行SQL注入攻击](http://drops.wooyun.org/tips/2113)
 
 [Sqlmap注入技巧收集整理](http://www.lxway.com/4089025404.htm)
@@ -18,10 +16,6 @@
 [SQL注入 | 最棒的相关资料汇总](http://mp.weixin.qq.com/s?__biz=MzAwMTUyMjQ5OA==&mid=402619216&idx=1&sn=0c2b3c741449ddb859203ebcc8eb04af&scene=0#wechat_redirect)
 
 [sqlmap手册](https://github.com/sqlmapproject/sqlmap/blob/master/doc/translations/README-zh-CN.md)
-
-DVWA 
-1
-?id=a' UNION SELECT "text1","text2";-- -&Submit=Submit
 
 sqlmap步骤
 //查数据库 
