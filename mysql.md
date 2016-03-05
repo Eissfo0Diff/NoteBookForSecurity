@@ -25,7 +25,7 @@
 数据操作  
 添加：INSERT INTO [表名] VALUES('','',......顺序排列的数据);  
 查询: SELECT * FROM [表名] WHERE ([条件]);  
-建立索引:CREATE INDEX [索引文件名] ON [表名] ([字段名]);  
+建立索引:CREATE INDEX [索引文件名] ON [表名]  ([字段名]);  
 删除：DELETE FROM [表名] WHERE ([条件]);  
 修改：UPDATE [表名] SET [修改内容如name = 'Mary'] WHERE [条件]；  
 
