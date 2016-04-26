@@ -3,8 +3,6 @@ http://xget.cn/   需要验证微信
 	992122833@qq.com密码992122833
 
 http://www.bujike.com/
-	aerinriohjr@qq.com argoisubefk
-	htylinliu@qq.com toiturh45181fr
 
 http://www.shadowsockscn.com 签到
 	19516584@qq.com asdfoiuehfw
